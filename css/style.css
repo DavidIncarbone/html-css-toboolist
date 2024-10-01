@@ -10,6 +10,13 @@
     font-style: normal;
 }
 
+ul {
+
+    list-style-type: none;
+
+
+}
+
 /* backgrounds and text colours */
 
 .main-color {
@@ -133,6 +140,8 @@ section {
     margin-top: 20px;
 }
 
+.hide-icon {}
+
 
 
 h2 {
@@ -146,7 +155,7 @@ h2 {
 
 .line-container {
 
-    border: 1px solid black;
+
     height: 50px;
 }
 
@@ -159,6 +168,7 @@ div .badge {
     color: white;
     font-weight: bold;
     font-size: 10px;
+    display: inline-block;
 }
 
 .content {
@@ -168,14 +178,14 @@ div .badge {
     vertical-align: middle;
 }
 
-.symbols-container {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
+.check {
+
+
     border: 1px solid green;
     border-radius: 50%;
     color: green;
-    vertical-align: middle;
+    display: inline-block;
+
 
 
 }
@@ -184,12 +194,9 @@ div .badge {
 .aegen {
 
     display: inline-block;
-    width: 15px;
-    height: 15px;
     border: 1px solid red;
     border-radius: 50%;
     color: red;
-    vertical-align: middle;
 
 }
 
