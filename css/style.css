@@ -18,6 +18,8 @@ ul {
 
 }
 
+
+
 /* backgrounds and text colours */
 
 .main-color {
@@ -67,6 +69,11 @@ ul {
 
 /* header */
 
+header {
+
+    padding: 15px
+}
+
 header img {
 
     margin-left: 5%;
@@ -96,7 +103,6 @@ header h1 {
     width: 60%;
     height: 80px;
     margin: 0 auto;
-    border: 1px solid black;
     background-color: white;
     padding-top: 30px;
     padding-left: 50px;
@@ -105,7 +111,7 @@ header h1 {
 
 #bt-add-task {
 
-    width: 10%;
+
     background-color: #47ADF1;
     color: white;
     border: none;
@@ -114,7 +120,7 @@ header h1 {
 
 #bt-add-section {
 
-    width: 15%;
+
     background-color: white;
     color: grey;
     border-radius: 5px;
@@ -124,7 +130,7 @@ header h1 {
 /* main */
 
 #sub-container {
-    border: 1px solid black;
+
     border-radius: 5px;
     max-width: 1200px;
     width: 60%;
@@ -135,6 +141,7 @@ header h1 {
     padding-top: 10px;
     padding-left: 50px;
 }
+
 
 section {
 
@@ -152,10 +159,11 @@ h2 {
 }
 
 
-.line-containe {
+.line-container {
 
 
     height: 50px;
+    padding-left: 15px;
 }
 
 div .content {
